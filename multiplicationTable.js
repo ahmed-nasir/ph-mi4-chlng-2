@@ -53,3 +53,23 @@ function squarFun(num) {
 var number = 4;
 
 console.log(squarFun(number));
+
+
+
+// **********************************
+// *******Squar Function ********
+// **********************************
+
+const pizza = {
+
+    toppings: ['cheese', 'sauce', 'pepperoni'],
+
+    crust: 'deep dish',
+
+    serves: 2
+
+}
+
+var result = pizza.toppings[2];
+// var result = pizza.toppings.indexOf('pepperoni');
+console.log(result);
